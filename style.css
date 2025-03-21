@@ -1,0 +1,707 @@
+/*font-family: "Righteous", serif;*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Reset end*/
+body{
+    zoom: 80%;
+    font-family: "Urbanist", serif;
+    font-family: "Righteous", serif;
+    background: black;
+    color: white;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background: rgb(28, 24, 20);
+}
+.navigation-home{
+    font-family: "Urbanist", serif;
+    color: rgb(201, 158, 113);
+    font-weight: 700;
+}
+.navigation1{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-top: 51px;
+    margin-bottom: 52px;
+    font-size: 18px;
+}
+.navigation-a{
+    font-family: none;
+}
+.logo{
+    margin-top: 32px;
+    margin-bottom: 33px;
+}
+.navigation2{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-top: 47px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navigation2 a{
+    font-family: none;
+}
+.banner-text h1{
+    font-family: "Righteous", serif;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.banner-h1{
+    margin-top: 5px;
+}
+.banner-p{
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+.banner{
+    width: 100%;
+    height: 739px;
+    background-image: url(IMG/Cup.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    padding-top: 176px;
+}
+.banner-button{
+    width: 202px;
+    height: 70px;
+    background: rgb(201, 158, 113);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.coffee span{
+    color:  rgb(201, 158, 113);
+    font-family: "Righteous", serif;
+}
+.main-coffee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-top: 140px;
+}
+.coffee h1{
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.text-tea{
+    width: 510px;
+    height: 635px;
+    background: rgb(28, 24, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cup-tea{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+}
+.tea-cup{
+    margin-left: 56px;
+}
+.cup{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.p-tea{
+    color: rgb(201, 158, 113);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Urbanist", serif;
+    margin-bottom: 13px;
+}
+.h1-tea{
+    font-family: "Righteous", serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 36px;
+    line-height: 130%;
+}
+.p-cup{
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 180%;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.order-img{
+    display: flex;
+    flex-direction: row;
+    gap:132px;
+}
+.order-h1{
+    margin-bottom: 104px;
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.order-p{
+    margin-bottom: 13px;
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(201, 158, 113);
+}
+.bag h1{
+    margin-top: 36px;
+    font-family: "Righteous", serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.bag button{
+    width: 169px;
+    height: 48px;
+    background: rgb(201, 158, 113);
+    color: white;
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bag2 p, .bag3 p{
+    color: rgb(201, 158, 113);
+    margin-top: 37px;
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+.bag2 h1, .bag3 h1{
+    font-family: "Righteous", serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.price1{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+}
+
+.view{
+    width: 252px;
+    height: 62px;
+    background: rgb(201, 158, 113);
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 97px;
+    margin-bottom: 140px;
+}
+.jug{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 530px;
+    background: rgb(28, 24, 20);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-jug{   
+    margin-top: 85px;
+}
+.jug-text{
+    margin-left: 160px;
+}
+.jug-text h1, p{
+    margin-bottom: 36px;
+}
+.jug-text h1{
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 72px;
+    display: flex;
+}
+.jug-text p{
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;;
+}
+.jug-text button{
+    width: 215px;
+    height: 62px;
+    background: rgb(201, 158, 113);
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-text p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 140px;
+}
+.menu-text h1{
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+.menu-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.coffee-img1{
+    width: 565px;
+    height: 120px;
+    border: 1px solid rgb(50, 50, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: center, space-between;
+    align-items: center;
+}
+.coffee-img1 img{
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.coffee-img1 h1{
+    font-family: "Righteous", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.coffee-img1 p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 108px;
+    margin-top: 49px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+    width: 1170px;
+    height: 549px;
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.div-text p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 140px;
+    margin-bottom: 13px;
+}
+.div-text h1{
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foot-img{
+    width: 565px;
+    height: 305px;
+    margin: 20px;
+    background-color: rgb(28, 24, 28);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+}
+.foot-img1{
+    display: flex;
+    flex-direction: column;
+}
+.foot-img1 img{
+    width: 129px;
+    height: 149px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.foot-img1 h2{
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 36px;
+    margin-bottom: 5px;
+}
+.foot-img1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Urbanist", serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 36px;
+    margin-top: 5px;
+}
+
+.foot-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 24px;
+    line-height: 150%;
+    margin-top: 40px;
+    margin-bottom: 31px;
+}
+.foot-text1{
+    color: rgb(250, 166, 26);
+}
+.foot-text2{
+    color: rgb(250, 166, 26);
+    margin-left: 195px;
+}
+.stars1{
+    
+    display: flex;
+    
+    justify-content: space-around;
+}
+.stars1 a{
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap:910px;
+    margin-top: -66px;
+}
+
+.foot-nav p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.circles1{
+    margin-right: 16px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgb(201, 158, 113);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles2{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: rgb(201, 158, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles2 a{
+    color: black;
+}
+/*Booking a table*/
+.reservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 140px;
+}
+.resev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.map{
+    width: 585px;
+    height: 652px;
+    background-image: url(IMG/Map.png);
+}
+.resev-text{
+    width: 585px;
+    height: 580px;
+    background: rgb(28, 24, 20);
+    text-align: center;
+    padding-top: 72px;
+}
+.resev-text p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.resev-text h1{
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.resev-text form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 57px;
+}
+.resev-text input{
+    width: 489px;
+    height: 64px;
+    background: rgb(20, 17, 14);
+    border: none;
+    margin-left: 48px;
+}
+::placeholder{
+    color: white;
+    font-size: 18px;
+    font-family: "Urbanist", serif;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.resev-text button{
+    background-color: rgb(201, 158, 113);
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    margin-top: 56px;
+    font-weight: 700;
+    width: 202px;
+    height: 61px;
+}
+/*News*/
+.news{
+    margin-top: 140px;
+}
+.text-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.text-news p{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.text-news h1{
+    font-family: "Righteous", serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.img-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 7px;
+}
+.img-text span{
+    color: rgb(201, 158, 113);
+}
+.img-text p{
+    font-family: "Urbanist", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.img-news{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+.img-news1{
+    background: rgb(28, 24, 20);
+    width: 366px;
+    height: 528px;
+}
+.img-news1 h3{
+    font-family: "Righteous", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 33px;
+    margin-left: 24px;
+}
+.read{
+    color: rgb(201, 158, 113);
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 24px;
+}
+/*Last Footer*/
+.last-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 146px;
+    align-items: center;
+}
+.footer-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 36px;
+    margin-right: 76px;
+}
+.last-form input{
+    background: rgb(28, 24, 20);
+    display: block;
+    width: 328px;
+    height: 72px;
+    border-radius: 36px;
+    border: none;
+}
+.last-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.last-form button{
+    width: 48px;
+    height: 48px;
+    background: rgb(201, 158, 113);
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 270px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Urbanist", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-back{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background: rgb(28, 24, 20);
+    margin-top: 72px;
+}
+.footer-back p{
+    margin-top: 33px;
+    margin-bottom: 31px;
+    font-family: "Urbanist", serif;
+    font-size: 14px;
+    font-weight: 500;
+}
